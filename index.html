@@ -18,7 +18,7 @@
         <div class="ingredients">
           <h2>Example</h2>
           <ul>
-            <li v-for="item in defaultIngredients">example <span @click="deleteIng">X</span></li>
+            <li v-for="(item, i) in defaultIngredients">{{item}} <span @click="deleteIng(i)">X</span></li>
           </ul>
         </div>
         <div class="add-input">

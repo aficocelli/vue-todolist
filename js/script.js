@@ -16,10 +16,10 @@ var app = new Vue ({
 
   methods:{
 
-    deleteIng: function(){
+    deleteIng: function(ingCanc){
 
 
-      alert("ciao");
+      this.defaultIngredients.splice(ingCanc, 1);
 
 
     }
