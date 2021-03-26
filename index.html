@@ -23,7 +23,7 @@
         </div>
         <div class="add-input">
           <label for="">Add Ingredients:</label>
-          <input type="text" v-model="newIng">
+          <input type="text" v-model="newIng" @keyup="enterIng">
           <button @click="addIng(newIng)">Add</button>
         </div>
       </div>

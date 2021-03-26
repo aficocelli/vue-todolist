@@ -38,6 +38,17 @@ var app = new Vue ({
       }
 
 
+    },
+
+    enterIng: function(e){
+
+      if(e.which == 13){
+
+        this.defaultIngredients.push(this.newIng);
+
+        this.newIng = null;
+
+      }
     }
 
 
