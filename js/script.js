@@ -8,7 +8,9 @@ var app = new Vue ({
       "Pomodoro",
       "Mozzarella",
       "Basilico"
-    ]
+    ],
+
+    newIng:null,
 
 
 
@@ -21,6 +23,12 @@ var app = new Vue ({
 
       this.defaultIngredients.splice(ingCanc, 1);
 
+
+    },
+
+    addIng:function(ingredient){
+
+      this.defaultIngredients.push(ingredient);
 
     }
 
