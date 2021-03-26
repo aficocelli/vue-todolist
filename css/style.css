@@ -1,0 +1,31 @@
+/* MIX */
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+/* /MIX */
+h1{
+  text-align: center;
+}
+.container{
+  height:80vh;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.box{
+  width:50%;
+  height:200px;
+  background-color: red;
+  text-align: center;
+
+}
+
+.box ul {
+  list-style-type: none;
+}
+.box li > span{
+  cursor:pointer;
+}

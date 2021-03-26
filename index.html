@@ -12,8 +12,21 @@
   </head>
   <body>
 
+    <h1>Example</h1>
     <div class="container" id="root">
-
+      <div class="box">
+        <div class="ingredients">
+          <h2>Example</h2>
+          <ul>
+            <li v-for="item in defaultIngredients">example <span @click="deleteIng">X</span></li>
+          </ul>
+        </div>
+        <div class="add-input">
+          <label for="">Add Ingredients:</label>
+          <input type="text">
+          <button>Add</button>
+        </div>
+      </div>
     </div>
     <script src="js/script.js" charset="utf-8"></script>
   </body>

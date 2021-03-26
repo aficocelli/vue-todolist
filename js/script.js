@@ -4,10 +4,27 @@ var app = new Vue ({
 
   data: {
 
+    defaultIngredients: [
+      "Pomodoro",
+      "Mozzarella",
+      "Basilico"
+    ]
 
 
 
-    
+  },
+
+  methods:{
+
+    deleteIng: function(){
+
+
+      alert("ciao");
+
+
+    }
+
+
   }
 
 
