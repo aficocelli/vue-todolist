@@ -28,7 +28,12 @@ var app = new Vue ({
 
     addIng:function(ingredient){
 
-      this.defaultIngredients.push(ingredient);
+      if(ingredient != null){
+
+        this.defaultIngredients.push(ingredient);
+
+      }
+
 
     }
 
