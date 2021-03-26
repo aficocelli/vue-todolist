@@ -107,3 +107,11 @@ background-color: #b1040d;
 /* /main box */
 
 /* /container */
+
+/* media query */
+
+@media screen and (max-width:900px) {
+  .list-ing ul{
+    column-count:1;
+  }
+}
