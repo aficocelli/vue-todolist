@@ -11,12 +11,13 @@
     <title>Vue To-do-list</title>
   </head>
   <body>
-
-    <h1>Example</h1>
     <div class="container" id="root">
       <div class="box">
         <div class="ingredients">
-          <h2>Example</h2>
+          <div class="title">
+            <h1>pizza 'n' fun</h1>
+            <hr>
+          </div>
           <ul>
             <li v-for="(item, i) in defaultIngredients">{{item}} <span @click="deleteIng(i)">X</span></li>
           </ul>
@@ -24,7 +25,7 @@
         <div class="add-input">
           <label for="">Add Ingredients:</label>
           <input type="text" v-model="newIng" @keyup="enterIng">
-          <button @click="addIng(newIng)">Add</button>
+          <button class="btn" @click="addIng(newIng)">Add</button>
         </div>
       </div>
     </div>
